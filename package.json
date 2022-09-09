@@ -9,6 +9,9 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.17.9",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.3",
     "@mui/material": "^5.10.4",
     "@mui/styled-engine-sc": "^5.10.3",
     "meteor-node-stubs": "^1.2.1",
@@ -22,5 +25,11 @@
       "server": "server/main.js"
     },
     "testModule": "tests/main.js"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
+    "eslint": "^8.23.0",
+    "eslint-plugin-react": "^7.31.7"
   }
 }
