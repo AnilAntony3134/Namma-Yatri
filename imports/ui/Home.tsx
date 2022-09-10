@@ -11,7 +11,7 @@ const StyledDiv = styled(Grid)(() => ({
 }))
 export const Home = () => {
   return (
-    <StyledDiv xs={8} >
+    <StyledDiv xs={8} > 
       <NavBar />
       <Menu />
       <MainTable/>
