@@ -36,5 +36,5 @@ export default function Map({ pickup, dropoff }) {
 }
 
 const Wrapper = tw.div`
-  flex-1 h-1/2
+  flex-1 h-1/3
 `;
