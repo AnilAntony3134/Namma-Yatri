@@ -1,0 +1,16 @@
+{{ define "main"}}
+<div>
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+                <div class="spacing"></div>
+                {{- partial "main" . -}}
+                <div class="spacing"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{{end}}

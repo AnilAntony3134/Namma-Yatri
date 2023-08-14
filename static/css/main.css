@@ -1,0 +1,42 @@
+:root {
+  --bs-primary: #B26832;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  /* background-color: #1a1a1a; */
+  background-color: #000000;
+  color: white;
+}
+
+.main-wrapper {
+  height: 100vh;
+}
+
+.main-content {
+  position: relative;
+  top: 70%;
+  transform: translateY(-70%);
+  padding: 20px;
+}
+
+.color-grey {
+  color: grey;
+}
+
+.custom-border {
+  border-color: blue;
+  border: 1px solid grey;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hire {
+  background-color: rgb(205, 255, 130);
+  color: rgb(8, 179, 8);
+  width: fit-content;
+  border-radius: 20px;
+  font-size: small;
+  padding: 5px 10px;
+}
