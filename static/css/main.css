@@ -32,6 +32,32 @@ body {
   cursor: pointer;
 }
 
+
+.content {
+  color: rgb(232, 232, 232);
+  text-decoration: none;
+}
+
+.content a {
+  color: rgb(181, 179, 179);
+  /* text-decoration: none; */
+}
+
+.content ul li {
+  text-decoration: none;
+  padding: 5px 0px;
+}
+
+.content ul {
+  padding-left: 1rem;
+  list-style-type: none;
+}
+
+.content img {
+  width: 200px
+}
+
+
 .hire {
   background-color: rgb(205, 255, 130);
   color: rgb(8, 179, 8);
