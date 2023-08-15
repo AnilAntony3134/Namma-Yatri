@@ -46,6 +46,7 @@ body {
 .content ul li {
   text-decoration: none;
   padding: 5px 0px;
+  list-style-type: none;
 }
 
 .content ul {

@@ -5,7 +5,6 @@ date: 2023-08-15T17:33:14+05:30
  
 #### TrackMyTrip
 
-<!-- ![Work 1](https://source.unsplash.com/random/800x600)   -->
 
 Description of your first work.
 
@@ -14,7 +13,6 @@ Description of your first work.
 
 #### Catchup
 
-<!-- ![Work 2](https://source.unsplash.com/random/800x600)   -->
 
 Description of your second work.
 
@@ -23,7 +21,6 @@ Description of your second work.
 
 #### Cinefest
 
-<!-- ![Work 3](https://source.unsplash.com/random/800x600)   -->
 
 Description of your third work.
 
