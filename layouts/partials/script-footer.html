@@ -11,7 +11,7 @@
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         function isElementInViewport(el) {
-            const rect = el.getBoundingClientRect();
+            const rect = el?.getBoundingClientRect() || {};
             return (
                 rect.top >= 0 &&
                 rect.left >= 0 &&
