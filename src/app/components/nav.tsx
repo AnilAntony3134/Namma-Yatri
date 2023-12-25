@@ -16,7 +16,7 @@ const cx = (...classes: any[]) => classes.filter(Boolean).join(" ");
 
 export default function NavBar() {
   return (
-    <aside className="mb-20">
+    <aside className="mb-10">
       <div className="lg:sticky lg:top-20">
         <LayoutGroup>
           <nav className="flex flex-row items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative">
