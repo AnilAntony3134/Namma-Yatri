@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { getDurationFrom } from "./utils/dataCalculator";
+import { useEffect } from "react";
 
 function Badge(props: any) {
   return (
@@ -14,6 +15,12 @@ function Badge(props: any) {
 
 export default function Page() {
   const date = getDurationFrom("20 May 2022");
+
+  useEffect(() => {
+    window.location.href = "https://bio.link/anilantony";
+  }, []);
+
+
   return (
     <section className="text-black dark:text-gray-400">
       <h1 className="font-medium text-2xl mb-8 tracking-tight dark: text-white">
